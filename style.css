@@ -1,44 +1,75 @@
-* {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+body{
+    background-color: #000000;
+
 }
 
-.mainlogo {
-    display:block;
-    margin:auto;
-    width: 350px;
+header{
+    display: flex;
+    justify-content: center;
 }
 
-body {
-    background-color:#000000;
+.main-logo{
+    margin-top: 100px;
 }
 
-#titulo-principal {
-    color:#ffffff;
-    font-size: 50px;
-    font-weight: bold;
+.container{
+    max-width: 1000px;
+    width: 100%;
     text-align: center;
-    padding: 40px;
+    margin: auto;
 }
 
-.img-perfil {
-    width: 100px;
-    padding: 10px;
+.main-title{
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+    margin: 70px;
+}
+
+.profile-list{
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.profile-picture{
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
 }
 
-.nome-perfil {
-    color:#808080;
-    padding: 10px;
+
+.username{
+    color: #808080;
 }
 
-#botao-perfil {
-    color:#ffffff;
-    background-color:#000000;
-    border-color:#ffffff;
-    border-radius:8px;
-    padding: 15px 45px;
+.username:hover{
+    color: #ffffff;
 }
 
-.botao {
+.box img:hover{
+    display: block;
+    border-color: #ffffff;
+    outline: auto;
+}
+
+.button{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 30px;
+    border-color: #ffffff;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.button:hover{
+    color:#000000;
+    background-color: #ffffff;
+}
+
+.class-button{
     text-align: center;
+    margin-top: 130px;
 }

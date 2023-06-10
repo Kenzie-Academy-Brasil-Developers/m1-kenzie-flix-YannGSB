@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css"/>
+    <link />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Kenzieflix</title>
 </head>
-<body>
 
+<body>
     <header>
-        <img src="./img/logo.png" alt="Logo Kenzieflix" class="mainlogo"/>
+        <img class="main-logo" src="./img/logo.png" alt="Logo Kenzieflix" />
     </header>
 
-    <Section>
-        <h1 id="titulo-principal">Quem está assistindo?</h1>
-        <ul>
-            <div><img src="./img/pink.png" alt="imagem perfil pink" class="img-perfil"/>
-            <li class="nome-perfil">Aline</li></div>
-            <div><img src="./img/panda.png" alt="imagem perfil panda" class="img-perfil"/>
-            <li class="nome-perfil">Pedrinho</li></div>
-            <div><img src="./img/robot.png" alt="imagem perfil robo" class="img-perfil"/>
-            <li class="nome-perfil">Júlia</li></div>
-            <div><img src="./img/plus.png" alt="adicional perfil" class="img-perfil"/>
-            <li class="nome-perfil">Adicionar Perfil</li></div>
+    <section class="container">
+        <h1 class="main-title">Quem está assistindo?</h1>
+        <ul class="profile-list">
+
+            <li class="username">
+                <div class="box">
+                <img src="./img/pink.png" class="profile-picture" alt="Imagem Pink" />
+                <p>Aline</p>
+                </div>
+            </li>
+
+
+            <li class="username">
+                <div class="box">
+                <img src="./img/panda.png" class="profile-picture" alt="Imagem Panda" />
+                <p>Pedrinho</p>
+                </div>
+            </li>
+
+            <li class="username">
+                <div class="box">
+                <img src="./img/robot.png" class="profile-picture" alt="Imagem Robo" />
+                <p>Júlia</p>
+            </div>
+            </li>
+
+            <li class="username">
+                <div class="box">
+                <img src="./img/plus.png" class="profile-picture" alt="Adicionar perfil">
+                <p>Adicionar perfil</p>
+            </div>
+            </li>
+
         </ul>
+    </section>
 
-        <div class="botao"><button type="button" id="botao-perfil">Gerenciar perfis</button></div>
-    </Section>
-
+    <section class="class-button"><button class="button" type="button">Gerenciar perfis</button>
+    </section>
 </body>
+
 </html>
